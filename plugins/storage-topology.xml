@@ -1,0 +1,12 @@
+<Plugin>
+  <Name>Storage Topology</Name>
+  <Overview>Read-only view of your storage and network hardware, under Tools &gt; System Information. Storage Topology: SAS controllers and per-lane link rates, the cable map, disk shelves (I/O modules, power supplies, fans, voltages, temperatures, bays), firmware versions with mismatches highlighted, and each drive's link speed, paths and error counts mapped to its Unraid disk name; uses storcli when installed and sg_ses (SES), otherwise the kernel's SAS and enclosure view. Network Topology: each physical NIC's PCIe link, temperature and firmware, every port's link, FEC, ring sizes and error counters (with growth), transceiver modules with DOM readings against their thresholds, bonds with LACP state, bridges, VLANs and LLDP neighbours. Nothing is changed on the system. Optional: storcli for Broadcom/LSI MegaRAID detail, lldpctl (LLDP plugin) for switch neighbours, mstflint for Mellanox/NVIDIA flash firmware.</Overview>
+  <PluginURL>https://raw.githubusercontent.com/davidcoulson/unraid-storage-topology/main/storage-topology.plg</PluginURL>
+  <PluginAuthor>David Coulson</PluginAuthor>
+  <Support>https://forums.unraid.net/topic/200846-plugin-storage-topology-sas-controllers-cables-shelves-and-bays-at-a-glance/</Support>
+  <Project>https://github.com/davidcoulson/unraid-storage-topology</Project>
+  <ReadMe>https://raw.githubusercontent.com/davidcoulson/unraid-storage-topology/main/README.md</ReadMe>
+  <Category>Tools:System</Category>
+  <Icon>https://raw.githubusercontent.com/davidcoulson/unraid-storage-topology/main/images/storage-topology.png</Icon>
+  <License>MIT</License>
+</Plugin>

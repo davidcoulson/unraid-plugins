@@ -1,0 +1,11 @@
+<CommunityApplications>
+  <Profile>
+Plugins by David Coulson for people running bigger Unraid servers.
+
+- **Docker Search**: a live search box and quick filters (running, healthy, updates, autostart and more) at the top of the Docker tab. Works with folder.view2.
+- **Storage Topology**: read-only pages showing how your SAS storage and network hardware are wired and how healthy they are: controllers, cables, disk shelves, bays, NICs, transceivers, bonds and LLDP neighbours.
+
+Each plugin has its own support thread on the Unraid forums, linked from its listing. Bugs can also go to the plugin's GitHub issues.
+  </Profile>
+  <WebPage>https://github.com/davidcoulson/unraid-plugins</WebPage>
+</CommunityApplications>
