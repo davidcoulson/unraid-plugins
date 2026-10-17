@@ -1,0 +1,13 @@
+<Plugin>
+  <Name>LLDP for UNRAID</Name>
+  <Overview>Runs lldpd so the server announces itself to your switches over LLDP and shows which switch and port each interface is plugged into, under Settings &gt; Network Services &gt; LLDP and as a Dashboard tile. Choose which interfaces take part and which management addresses are advertised, override the system name and description, set the transmit interval, run receive-only, and optionally speak CDP, FDP, SONMP or EDP for older Cisco, Foundry, Nortel and Extreme gear. lldpd 1.0.22 runs with privilege separation. Maintained fork of desertwitch's LLDP for UNRAID.</Overview>
+  <PluginURL>https://raw.githubusercontent.com/davidcoulson/LLDP-unRAID/main/plugin/ulldpd.plg</PluginURL>
+  <PluginAuthor>David Coulson</PluginAuthor>
+  <Support>https://github.com/davidcoulson/LLDP-unRAID/issues</Support>
+  <Project>https://github.com/davidcoulson/LLDP-unRAID</Project>
+  <ReadMe>https://raw.githubusercontent.com/davidcoulson/LLDP-unRAID/main/README.md</ReadMe>
+  <Category>Network:Management</Category>
+  <Icon>https://raw.githubusercontent.com/davidcoulson/LLDP-unRAID/main/plugin/ulldpd.png</Icon>
+  <MinVer>6.12.0</MinVer>
+  <License>GPL-2.0</License>
+</Plugin>
